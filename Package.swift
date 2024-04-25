@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "Smartleafv2.",
+    name: "Smartleafv2.swiftpm",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "Smartleafv2.",
+            name: "Smartleafv2.swiftpm",
             targets: ["AppModule"],
             bundleIdentifier: "org.jhhs.627401.Smartleafv2-",
             displayVersion: "1.0",
