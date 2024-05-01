@@ -11,11 +11,11 @@ struct ContentView: View {
         VStack(spacing:60){
             
                 Text("Leaf-Budget Smartly")
-                Text("Budget Without The Worry of Overspending")
+                .bold()
                 Text("Welcome")
+                .bold()
                 
                
-            
             TextField("enter budget here", text: $gotonext.Budget)
             
             
